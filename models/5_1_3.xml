@@ -68,7 +68,7 @@ A LwM2M Server may also instruct a LwM2M Client to fetch a firmware image from a
 A LwM2M Client MUST support block-wise transfer [CoAP_Blockwise] if it implements the Firmware Update object.
 A LwM2M Server MUST support block-wise transfer. Other protocols, such as HTTP/HTTPs, MAY also be used for downloading firmware updates (via the Package URI resource). For constrained devices it is, however, RECOMMENDED to use CoAP for firmware downloads to avoid the need for additional protocol implementations.]]></Description1>
 		<ObjectID>5</ObjectID>
-		<ObjectURN>urn:oma:lwm2m:oma:5</ObjectURN>
+		<ObjectURN>urn:oma:lwm2m:oma:5:1.3</ObjectURN>
 		<LWM2MVersion>1.0</LWM2MVersion>
 		<ObjectVersion>1.3</ObjectVersion>
 		<MultipleInstances>Single</MultipleInstances>
