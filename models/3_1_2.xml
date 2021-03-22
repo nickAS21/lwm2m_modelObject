@@ -59,7 +59,7 @@ LEGAL DISCLAIMER
 
 <LWM2M xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.openmobilealliance.org/tech/profiles/LWM2M-v1_1.xsd">
 	<Object ObjectType="MODefinition">
-		<Name>Device_V1.0</Name>
+		<Name>Device_V1.2</Name>
 		<Description1><![CDATA[This LwM2M Object provides a range of device related information which can be queried by the LwM2M Server, and a device reboot and factory reset function.]]></Description1>
 		<ObjectID>3</ObjectID>
 		<ObjectURN>urn:oma:lwm2m:oma:3:1.2</ObjectURN>
