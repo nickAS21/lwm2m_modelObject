@@ -1,0 +1,1 @@
+pkgName: FW_succesful_204 pkgVer: 2.04  updateResultAfterUpdate: 1 stateAfterUpdate: 0
