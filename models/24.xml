@@ -112,7 +112,7 @@ LEGAL DISCLAIMER
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..3</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[The Will QoS value to declare in the MQTT CONNECT message.]]></Description>
@@ -122,7 +122,7 @@ LEGAL DISCLAIMER
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..65535</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[The Keep Alive value to declare in the MQTT CONNECT message.]]></Description>

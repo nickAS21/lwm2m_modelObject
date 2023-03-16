@@ -171,7 +171,7 @@ LEGAL DISCLAIMER
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..255</RangeEnumeration>
 				<Units />
 				<Description><![CDATA[This Resource is used to indicate the Power Saving Modes supported by the LwM2M Client.
@@ -185,7 +185,7 @@ LEGAL DISCLAIMER
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..255</RangeEnumeration>
 				<Units />
 				<Description><![CDATA[This Resource is used to indicate which Power Saving Mode(s) is (are) currently active in the LwM2M Client.
@@ -199,7 +199,7 @@ LEGAL DISCLAIMER
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..255</RangeEnumeration>
 				<Units />
 				<Description><![CDATA[This resource is used to indicate client configuration as to when it uses Release Assistance Indicator (RAI) as defined in 3GPP-TS_24.310, clause 9.9.4.25 to indicate to the NW when connection can be released.

@@ -67,7 +67,7 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..65535</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Identifier of the application group]]></Description>
@@ -77,7 +77,7 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..65535</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Identifier of the security group]]></Description>
@@ -97,7 +97,7 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Operations>RW</Operations>
 				<MultipleInstances>Multiple</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Objlnk</Type>
+				<Type>Corelnk</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Link to the local object instances (and/or single resources) that are members of that group in CoRE Link Format [RFC6690](https://tools.ietf.org/html/rfc6690)\nNote: instances and resources not listed here will not be addressable on this node through group messages of this group]]></Description>

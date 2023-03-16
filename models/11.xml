@@ -315,7 +315,7 @@ LEGAL DISCLAIMER
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration/>
 				<Units/>
 				<Description><![CDATA[For data sent over NAS, this indicates the maximum number of messages the UE can send per time unit (Resource 27) per PDN connection. See [3GPP-TS_23.401] clause 4.7.7.2 and [3GPP-TS_24.008] clause 10.5.6.3.2.]]></Description>
@@ -324,7 +324,7 @@ LEGAL DISCLAIMER
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..4</RangeEnumeration>
 				<Units/>
 				<Description><![CDATA[In association with APN Rate Control (Resource 28), this indicates the units of the period over which the maximum number of PDU transmissions are measured. [3GPP-TS_24.008] clause 10.5.6.3.2 specifies that 0=unrestricted, 1=minute, 2=hour, 3=day and 4=week.]]></Description>
@@ -344,7 +344,7 @@ LEGAL DISCLAIMER
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..4</RangeEnumeration>
 				<Units/>
 				<Description><![CDATA[In association with APN Rate Control for Exception Data (Resource 28), this indicates the units of the period over which the maximum number of messages is measured. [3GPP-TS_24.008] clause 10.5.6.3.2 specifies that 0=unrestricted, 1=minute, 2=hour, 3=day and 4=week.]]></Description>
@@ -353,7 +353,7 @@ LEGAL DISCLAIMER
 				<Operations>RW</Operations>
 				<MultipleInstances>Multiple</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units/>
 				<Description><![CDATA[This resource specifies the supported RAT Types that the LWM2M Client can use for connecting to the specified APN.

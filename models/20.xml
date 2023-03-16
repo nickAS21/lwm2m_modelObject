@@ -4,31 +4,26 @@
 FILE INFORMATION
 
 OMA Permanent Document
-   File: OMA-SUP-XML_LWM2M_EventLog-V1_0_1-20200616-A
-   Type: xml
+   File: OMA-SUP-XML_LWM2M_EventLog-V2_0-20230131-A
+   Path: https://openmobilealliance.org/release/LwM2M_EventLog/
 
-Public Reachable Information
-   Path: http://www.openmobilealliance.org/tech/profiles
-   Name: LwM2M_EventLog-v1_0_1.xml
+OMNA LwM2M Registry
+   File: 20.xml
+   Path: https://github.com/OpenMobileAlliance/lwm2m-registry
 
 NORMATIVE INFORMATION
 
   Information about this file can be found in the latest revision of
 
-    OMA-TS-LwM2M_EventLog-V1_0_1
+    OMA-TS-LwM2M_EventLog-V2_0
 
-  This is available at http://www.openmobilealliance.org/release/
+  This is available at https://www.openmobilealliance.org/release/LwM2M_EventLog/
 
   Send comments to https://github.com/OpenMobileAlliance/OMA_LwM2M_for_Developers/issues
 
-CHANGE HISTORY
-
-15062018 Status changed to Approved by DM, Doc Ref # OMA-DM&SE-2018-0060-INP_LWM2M_EventLog_V1_0_ERP_for_final_Approval
-16062020 Status changed to Approved by DMSE - Ref # OMA-DM&SE-2020-0020-INP_LwM2M_EventLog_V1_0_1_ERP_for_Final_Approval
-
 LEGAL DISCLAIMER
 
-  Copyright 2020 Open Mobile Alliance.
+  Copyright 2023 Open Mobile Alliance.
 
   Redistribution and use in source and binary forms, with or without
   modification, are permitted provided that the following conditions
@@ -59,21 +54,21 @@ LEGAL DISCLAIMER
   The above license is used as a license under copyright only.  Please
   reference the OMA IPR Policy for patent licensing terms:
   https://www.omaspecworks.org/about/intellectual-property-rights/
-  
+
 -->
 
 <LWM2M xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://openmobilealliance.org/tech/profiles/LWM2M.xsd">
 
 	<Object ObjectType="MODefinition">
 		<Name>Event Log</Name>
-		<Description1><![CDATA[The Event Log Object is a single Instance Object defined for logging data in a straightforward and generic way.
+		<Description1><![CDATA[The Event Log Object is a multiple Instances Object defined for logging data in a straightforward and generic way.
 The Resources of that Object are based on the OMA LwM2M set of reusable Resources dedicated to logging event activity.
 ]]></Description1>
 		<ObjectID>20</ObjectID>
-		<ObjectURN>urn:oma:lwm2m:oma:20</ObjectURN>
+		<ObjectURN>urn:oma:lwm2m:oma:20:2.0</ObjectURN>
 		<LWM2MVersion>1.0</LWM2MVersion>
-		<ObjectVersion>1.0</ObjectVersion>
-		<MultipleInstances>Single</MultipleInstances>
+		<ObjectVersion>2.0</ObjectVersion>
+		<MultipleInstances>Multiple</MultipleInstances>
 		<Mandatory>Optional</Mandatory>
 		<Resources>
 			<Item ID="4010"><Name>LogClass</Name>

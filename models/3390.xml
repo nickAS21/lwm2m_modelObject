@@ -67,7 +67,7 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..65535</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[This Resource represents the target colour X value requested to the Light Point. Scale is: 0.001]]></Description>
@@ -77,7 +77,7 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..65535</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[This Resource represents the target colour Y value requested to the Light Point. Scaling is 0.001 per Unit, Value conforms to CIE color definition]]></Description>
@@ -87,7 +87,7 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Objlnk</Type>
+				<Type>Corelnk</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Link to the Object Instance in CoRE Link Format [RFC6690](https://tools.ietf.org/html/rfc6690)]]></Description>
@@ -97,7 +97,7 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..5</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[The priority of this Logical Object. If a Logical Object with a higher priority controlles the same physical object, this instance will hold its settings until its priority is sufficient again. \nIf the priorities are the same the last one is served.]]></Description>
@@ -107,7 +107,7 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..65535</RangeEnumeration>
 				<Units>ms</Units>
 				<Description><![CDATA[Defines the time needed to change the light point output from minimum hue/saturation to maximum hue/saturation. The resulting change rate is used for the relative changes of the colour request. Scaling is 100ms per Unit]]></Description>
@@ -117,7 +117,7 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..65535</RangeEnumeration>
 				<Units>ms</Units>
 				<Description><![CDATA[Defines the default transition time to be used for 'Set_Colour' and 'Step' requests, if that request has no value specified. A value of 0 means the transaction is immediate. Scaling is 100ms per unit]]></Description>
@@ -127,7 +127,7 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..65535</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Defines the default step size to be used for 'Hue Step' requests, if that request has no value specified. The Hue is in relative units (0..1), scaling is 0.001 per unit, so the integers given are at factor 1000.]]></Description>
@@ -137,7 +137,7 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..65535</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Defines the default step size to be used for 'Saturation Step' requests, if that request has no value specified. The Saturation is in relative units (0..1), scaling is 0.001 per unit, so the integers given are at factor 1000.]]></Description>
@@ -147,7 +147,7 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..65535</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[The application group ID that the logical object is part of. This ID will define the application group the status reports are sent to. It is internally used as a pointer to the Group Object instance that hosts all the Group configurations.]]></Description>
@@ -157,7 +157,7 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>1..600</RangeEnumeration>
 				<Units>s</Units>
 				<Description><![CDATA[The time specified as status resend time is used to resend the actual status to the application group the object is a member of, even if nothing changed.\nThe status resend time is restarted after every event. The actual interval is a random time with the maximum duration given by this resource. Randomization helps to avoid massive ongoing message collisions after system power up.\nFor example: Status resend time is set to 10 seconds;\n* 00:00 status is sent\n* 00:05 status changes and is sent immediatly\n* 00:15 (or before, depending on the randomization) status is sent even though it did not change]]></Description>
@@ -167,7 +167,7 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..255</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[The ID of the status resource structure that is used to code the cyclic status report. See object 4012 'oA Status Report Structure' for more information]]></Description>
@@ -247,7 +247,7 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..65535</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[When written, the scene with the given ID is recalled immediately.]]></Description>
@@ -267,7 +267,7 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..65535</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Defines a test event for injection into the system when debug mode is enabled. Event definition is vendor specific.]]></Description>

@@ -79,7 +79,7 @@ https://ioterop.com/
                 <Operations>RW</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Mandatory</Mandatory>
-                <Type>Integer</Type>
+                <Type>Unsigned Integer</Type>
                 <RangeEnumeration>0..65535</RangeEnumeration>
                 <Units>s</Units>
                 <Description><![CDATA[The Keep Alive value to declare in the MQTT CONNECT message.]]></Description>

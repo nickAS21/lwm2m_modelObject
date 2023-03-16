@@ -72,7 +72,7 @@ LEGAL DISCLAIMER
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[This resource identifies mapping the LwM2M Object ID that is mapped with the Mapping Info Resource. It defines the source of the mapping.]]></Description>
@@ -82,7 +82,7 @@ LEGAL DISCLAIMER
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Objlnk</Type>
+				<Type>Corelnk</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[This resource defines the target of the mapping. This Resource may be empty in which case the mapping is the identity function.]]></Description>

@@ -66,7 +66,7 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..65535</RangeEnumeration>
 				<Units>lx</Units>
 				<Description><![CDATA[The minimum value that can be measured by the sensor]]></Description>
@@ -76,7 +76,7 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..65535</RangeEnumeration>
 				<Units>lx</Units>
 				<Description><![CDATA[The maximum value that can be measured by the sensor]]></Description>
@@ -86,7 +86,7 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..255</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Error status is a bit coded value that shows all current errors on the object. The error status changes as soon as a new error occurs or an old one is resolved. Bitwise: 0 (LSB): Hardware_Error, 1: Temperature_Error, 2: Range_Error, 3: Quality_Error]]></Description>

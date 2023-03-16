@@ -67,7 +67,7 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..255</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[The ID of the status report structure. It is always the first byte of the transmitted status report.\nThis needs to be unique per receiving object. ID 255 is used to receive the 'go bootstrap' message.]]></Description>
